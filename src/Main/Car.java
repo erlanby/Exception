@@ -11,7 +11,7 @@ public class Car implements AutoCloseable {
     public void close() throws Exception {
         System.out.println(carName + " Машина жабылып жатат");
     }
-    public void drive()throws Exception{
+    public void drive(){
         System.out.println(carName + " Машина журуп жатат");
     }
 }
